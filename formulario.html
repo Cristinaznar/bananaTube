@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Banana Tube Formulario de registro</title>
+    <link rel="stylesheet" href="css/formulario.css" type="text/css">
+</head>
+<body>
+   <div class="header">
+       <div>COSAS DEL HEADER</div>
+          
+          <div>
+<!--           ul>li*4>a[href=pagina$.html] -->
+          <ul class="nav">
+              <li><a href="pagina1.html">P1</a></li>
+              <li><a href="pagina2.html">P2</a></li>
+              <li><a href="pagina3.html">P3</a></li>
+              <li><a href="pagina4.html">P4</a></li>
+          <ul>
+                      <li id="primero">p31</li>
+                      <li>p32</li>
+                      <li>p33</li>
+          </ul>
+          </ul>
+          
+          
+          </div>
+       
+<!--
+       aplicar rojo a los lis del submenu
+       
+       ul.nav > li > ul > li   en css
+-->
+<!--
+   
+   el primer li del submenu quiero que sea naranja
+   
+   #primero      en css
+-->
+   
+   
+    </div>
+    </div>
+       
+       HEADER
+       <div class="main">
+       <div class="wrapper"></div>
+              
+<!--         <form action="register.php" method="get">-->
+              <form action="formulario.html" method="post">
+                  
+                   <div class="col-izda">
+                  <label for="username">Nombre de usuario:</label>
+                    </div>
+                    
+                    <div class="col-dcha">
+                   <input type="text" name="username" id="username" maxlength="20" placeholder="Escriba su nombre aqui" required />
+                   </div>
+                   
+                   <label for="userpass">Tu contraseña</label>
+                   
+                   <div>
+                   <input type="password" name="userpass" id="userpass" maxlength="20" placeholder="Escriba su contraseña aquí" required />
+                   </div>
+                   
+                   <label for="userpass2">Tu contraseña otra vez</label>
+                   
+                   <input type="password" name="userpass2" id="userpass2" maxlength="20" placeholder="Escriba su contraseña aquí" required />
+                   
+                   
+                   
+                   <label for="genderF">Sexo</label>
+                   Hombre: <input type="radio" id="genderM" name="gender" value="M" required />
+                   Mujer: <input type="redio" id="genderF" name="gender" value="F" />
+                   NS/NC: <input type="radio" id="genderN" name="gender" value="N" />
+                   
+                   <label for="tos">Acepto los términos</label>
+                   <input type="checkbox" id="tos" name="tos" value="1"
+                   required>
+                   
+                   <label for="country">Selecciona tu país</label>
+                   <select name="country" id="country" required>
+                       <option value="0">Selecciona tu país</option>
+                       <option value="1">Afganistán</option>
+                       <option value="2" selected>Australia</option>
+                       <option value="3">Bielorruia</option>
+                  </select>
+                 
+<!--
+                 <select name="province" id="province" required>
+                 <option value="">Seleccione tu provincia</option>
+                       option[value=$]*5
+                       
+                       <option value="1"></option>
+                       <option value="2"></option>
+                       <option value="3"></option>
+                       <option value="4"></option>
+                       <option value="5"></option>
+                   </select>
+-->
+                   
+                   
+                   <label for="description">Describete a ti mismo</label>
+                   <textarea name="description" id="description" cols="30" rows="10"></textarea>
+                   
+                   
+                   <label for="usermail">Tu email</label>
+                   <input type="email" id="usermail" name="usermail" maxlength="255" placeholder="Escriba su mail" required />
+                   
+
+                  <label for="age">Edad</label>
+                   <input type="number" id="age" name="age" step="2" />
+                   
+                   <input type="hidden" name="current step" value="1" />
+                   
+                <input type="submit" />
+        </form>
+        
+        FOOTER
+           <div class="footer">
+               <div class="wrapper"></div>
+           </div>
+           </form>
+    </div>   
+    </div>       
+    </div>
+   </div>
+    
+</body>
+</html>

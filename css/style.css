@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    float: left;
+}
+
+
+.col-izda {
+    width: 20%;
+    float: left;
+}
+
+.col-centro {
+    width: 60%;
+    float: left;
+}
+
+.col-dcha {
+    width: 20%;
+    float: left;
+}
+
+
+.lado-izda {
+    width: 50%;
+    float: left;
+}
+
+.lado-dcha {
+    width: 50%;
+    float: left;
+}
+

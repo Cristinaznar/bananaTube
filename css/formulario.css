@@ -1,0 +1,91 @@
+@font-face {
+   font-family: Terminator;
+    src: url ( )
+}
+
+body {
+    margin: 0;
+    font-family: Terminator, Verdana, sans-serif;
+}
+
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+    background-color: cornsilk;
+}
+
+.header {
+    width: 100%;
+    float: left;
+}
+
+
+/*.header .wrapper div */
+div.header div.wrapper div {
+    float: left;
+    width: 100%;
+    margin:
+}
+
+.right-text {
+    text-align: right;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+ul.nav {
+    padding-left: 0%;
+    list-style-type: none;
+}
+
+ul.nav > li {
+/*
+    float: left;
+    width: 25%;
+*/
+/*    display: inline;*/
+/*    display: none;  para que no se muestre*/
+    
+    display: inline-block;
+    width: 24.6%;
+    text-align: center;
+}
+
+
+ul.nav > li > a {
+    color: white;
+    text-align: center;
+    background-color: aquamarine;
+    opacity: 0.3;
+}
+
+ul.nav > li > a:active {
+    
+}
+
+ul.nav > li > a:visited {
+    
+}
+
+ul.nav > li > a {
+    display: inline-block;
+    width: 24.6%;
+    text-align: center;
+    color: darkorange;
+    transition: background color 0.8s, width 3s, font-size 3s;
+    -webkit- transition: background color 0.8s, width 3s, font-size 3s;
+    -moz- transition: background color 0.8s, width 3s, font-size 3s;
+    -o- transition: background color 0.8s, width 3s, font-size 3s;
+    -ms- transition: background color 0.8s, width 3s, font-size 3s; 
+}
+
+ul.nav > li:hover {
+    width: 200px;
+    background-color: rgba (255,255,255,0.8)
+    background-color: #FF8C00;
+    font-size: 32px<;
+}
